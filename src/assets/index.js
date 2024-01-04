@@ -33,6 +33,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import RentO from "./Rento.png";
+import ResPro from "./ResPro.png";
+import citizen from "./citizen.jpg";
 
 export {
   logo,
@@ -66,4 +69,7 @@ export {
   web2,
   web3,
   web4,
+  RentO,
+  ResPro,
+  citizen,
 };

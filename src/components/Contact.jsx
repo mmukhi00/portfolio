@@ -26,8 +26,8 @@ const Contact = () => {
     console.log(JSON.stringify(form));
     emailjs
       .send(
-        process.env.service,
-        process.env.template,
+        "service_pb65e3x",
+        "template_2cg6xip",
         {
           from_name: form.name,
           to_name: "Mahima Mukhi",
@@ -35,7 +35,7 @@ const Contact = () => {
           to_email: "mukhi.mahima7@gmail.com",
           message: form.message,
         },
-        process.env.key
+        "zu_Z7VNPfgDPIihH4"
       )
       .then(
         () => {
@@ -60,7 +60,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[1.4] bg-cyan-900 p-4 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Get in Touch</p>
+        {/* <p className={styles.sectionSubText}>Get in Touch</p> */}
         <h3 className={styles.sectionHeadText}>Contact</h3>
         <form
           ref={formRef}

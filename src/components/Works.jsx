@@ -21,7 +21,7 @@ const ProjectCard = ({
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-cyan-500 p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className=" relative  w-full h-[230px] ">
+        <div className=" relative  w-[320px] h-[310px] ">
           <img
             src={image}
             slt={name}
@@ -60,8 +60,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Project</h2>
+        <p className={styles.sectionSubText}>What I have developed so far</p>
+        <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p

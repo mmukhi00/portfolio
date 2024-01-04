@@ -26,7 +26,7 @@ const Navbar = () => {
           <p className="text-white  text-[18px] font-medium cursor-pointer">
             Mahima Mukhi
             <span className="sm:block hidden font-light text-[15px]">
-              React | Next.js | Typescript
+              React | Next.js | TypeScript
             </span>
           </p>
         </Link>
