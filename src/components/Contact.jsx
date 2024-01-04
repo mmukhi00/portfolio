@@ -26,8 +26,8 @@ const Contact = () => {
     console.log(JSON.stringify(form));
     emailjs
       .send(
-        "service_pb65e3x",
-        "template_2cg6xip",
+        process.env.service,
+        process.env.template,
         {
           from_name: form.name,
           to_name: "Mahima Mukhi",
@@ -35,7 +35,7 @@ const Contact = () => {
           to_email: "mukhi.mahima7@gmail.com",
           message: form.message,
         },
-        "zu_Z7VNPfgDPIihH4"
+        process.env.key
       )
       .then(
         () => {
